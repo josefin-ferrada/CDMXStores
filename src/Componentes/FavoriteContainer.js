@@ -10,8 +10,10 @@ class FavoriteContainer extends Component {
       <div>
         Aquí irá mi barra lateral con los favoritos
         { this.props.newStores.map((stores,i) =>(
-          <h3>{stores.nameStore}</h3>))}
-        
+          <div key={i}>
+          <h5>{stores.nameStore}</h5>
+          <button onClick={() => this.props.delete(stores.nameStore)} >Borrar</button>
+          </div>))}
       </div>
     );
   }

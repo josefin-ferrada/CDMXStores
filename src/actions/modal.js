@@ -17,7 +17,7 @@ import store from './../store';
      dispatch({
          type: DELETE_FAV,
          payload: {
-            name: name
+            nameStore: name
          }
      })
  }
