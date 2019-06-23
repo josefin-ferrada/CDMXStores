@@ -5,9 +5,6 @@ import './Marker.css';
 import { deleteFav, setFav } from './../actions/modal';
 import {connect} from 'react-redux';
 
-
-
-
 class InMap extends Component {
   state = { show: false }
 
@@ -50,6 +47,7 @@ const Modal = ({ handleClose, show, children }) => {
         <button
           onClick={handleClose}>Cerrar
         </button>
+        <button>Agregar a Favoritos</button>
       </section>
     </div>
   );
@@ -65,7 +63,6 @@ const mapDispatchToProps = (dispatch) => {
   return {
     set:  setFav(dispatch),
     delete: deleteFav(dispatch)
-    
     
   }
 }
