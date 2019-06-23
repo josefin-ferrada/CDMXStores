@@ -20,8 +20,7 @@ export default (
         return {
           ...state,
         favStore: state.favStore.filter((store) => store.nameStore !== action.payload.nameStore) 
-        /* state.filter((post) => post.id !== action.id) */
-        /* state.order.filter((order) => order.id !== action.id)*/
+    
         
         }
 
