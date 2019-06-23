@@ -32,6 +32,7 @@ class InMap extends Component {
             handleClose={this.hideModal} >
             <p id={this.props.key}>{this.state.name}</p>
             <p>{this.state.address}</p>
+            <button onClick={() => this.props.set(this.state.name,this.state.address)} >Agregar a Favoritos</button>
           </Modal>
       </main>
     )
@@ -47,7 +48,7 @@ const Modal = ({ handleClose, show, children }) => {
         <button
           onClick={handleClose}>Cerrar
         </button>
-        <button>Agregar a Favoritos</button>
+        
       </section>
     </div>
   );
