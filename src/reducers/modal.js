@@ -3,7 +3,7 @@ import { ADD_TO_FAV, DELETE_FAV } from  "../actions/actionTypes";
 
 export default (
   state = {
-    favStore: []
+    favStore: [    ]
   },
   action//viene de action file
 ) => {

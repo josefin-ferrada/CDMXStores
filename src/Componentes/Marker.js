@@ -4,6 +4,7 @@ import stores from './../store_directory.json';
 import './Marker.css';
 import { deleteFav, setFav } from './../actions/modal';
 import {connect} from 'react-redux';
+import star from './../images/star.png'
 
 class InMap extends Component {
   state = { show: false }
@@ -19,7 +20,7 @@ class InMap extends Component {
     
   render() {
     return (
-      <main>
+      <main className="modal-content">
         {stores.map((element, i) => (
           <Marker
             key={i}
@@ -32,7 +33,7 @@ class InMap extends Component {
             handleClose={this.hideModal} >
             <p id={this.props.key}>{this.state.name}</p>
             <p>{this.state.address}</p>
-            <button onClick={() => this.props.set(this.state.name,this.state.address)} >Agregar a Favoritos</button>
+            <button type="button" className="btn btn-warning" onClick={() => this.props.set(this.state.name,this.state.address)} ><img alt="staricon" src={star} />Agregar a Favoritos</button>
           </Modal>
       </main>
     )
@@ -43,9 +44,10 @@ const Modal = ({ handleClose, show, children }) => {
   const showHideClassName = show ? 'modal display-block' : 'modal display-none';
   return (
     <div className={showHideClassName}>
-      <section className='modal-main'>
+      <section className='modal-main '>
         {children}
         <button
+        type="button" className="btn btn-primary"
           onClick={handleClose}>Cerrar
         </button>
         

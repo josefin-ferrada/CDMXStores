@@ -6,8 +6,12 @@
   color: white !important;
   justify-content: left;
   font-size: 20px;
-  width: 1365px;
+  
   box-shadow: 2px 2px 5px #999;
+}
+.row{
+  margin-right: 0 !important;
+ margin-left: 0 !important; 
 }
 
 .col-4{
@@ -19,9 +23,13 @@
   padding-right: 0px !important; 
   padding-left: 0px !important; 
 }
-@media (min-width: 1200px){
-.container {
-    max-width: 1330px !important;
-   
-  }
+.btn-warning{
+  color: white !important;
+  margin-right: 10px;
 }
+.card-fav{
+  box-shadow: 2px 2px 5px #999;
+  padding: 10px;
+}
+
+
