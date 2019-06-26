@@ -7,7 +7,7 @@ import InMap from './Marker'
 const MyMapComponent = compose(
 
   withProps({
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCVH8e45o3d-5qmykzdhGKd1-3xYua5D2A",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAVJbaZpDPJdabuzqPHfbmN6wkyL35dyto",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `330px` }} />,
     mapElement: <div style={{ height: `161%` }} />,
