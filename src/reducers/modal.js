@@ -15,7 +15,7 @@ export default (
         favStore: state.favStore.concat([action.payload])
       }
       case DELETE_FAV:
-        console.log(action);
+        
 
         return {
           ...state,

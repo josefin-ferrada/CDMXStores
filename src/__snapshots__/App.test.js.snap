@@ -1,0 +1,3093 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly in "debug" mode 1`] = `
+<div>
+  <nav
+    Style="background-color: #FFFFF;"
+    className="navbar navbar-light mr-auto"
+  >
+     
+    <img
+      alt="storeicon"
+      src="cdmxstore.png"
+      width="250px"
+    />
+  </nav>
+  <div
+    className="row favoriteContainer"
+  >
+    <div
+      className="col-8"
+    >
+      <withProps(withScriptjs(withGoogleMap(Component)))
+        isMarkerShown={true}
+      />
+    </div>
+    <div
+      className="col-4 "
+    >
+      <Connect(FavoriteContainer) />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Marker should render correctly in "debug" mode 1`] = `
+<main
+  className="modal-content"
+>
+  <Marker
+    key="0"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3858-CUAJIMALPA"
+  />
+  <Marker
+    key="1"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 40.640771,
+        "lng": -74.016133,
+      }
+    }
+    title="Red Barn Stores 2344-LOMAS"
+  />
+  <Marker
+    key="2"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1770-PATIO SANTA FE"
+  />
+  <Marker
+    key="3"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.46961,
+        "lng": -99.17176,
+      }
+    }
+    title="Red Barn Stores 2466-CUITLAHUAC"
+  />
+  <Marker
+    key="4"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.47704,
+        "lng": -99.1927,
+      }
+    }
+    title="Red Barn Stores 3862-AZCAPOTZALCO"
+  />
+  <Marker
+    key="5"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.30518,
+        "lng": -99.0615,
+      }
+    }
+    title="Red Barn Stores 2347-TLAHUAC"
+  />
+  <Marker
+    key="6"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.31519,
+        "lng": -99.12459,
+      }
+    }
+    title="Red Barn Stores 2464-MIRAMONTES "
+  />
+  <Marker
+    key="7"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.3801,
+        "lng": -99.14036,
+      }
+    }
+    title="Red Barn Stores 2670-TLALPAN"
+  />
+  <Marker
+    key="8"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.29443,
+        "lng": -99.1255,
+      }
+    }
+    title="Red Barn Stores 3857-VILLA COAPA"
+  />
+  <Marker
+    key="9"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.47242,
+        "lng": -99.12184,
+      }
+    }
+    title="Red Barn Stores 2345-TEPEYAC"
+  />
+  <Marker
+    key="10"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3794-ACUEDUCTO DE GUADALUPE"
+  />
+  <Marker
+    key="11"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.44128,
+        "lng": -99.14378,
+      }
+    }
+    title="Red Barn Stores 3846-BUENAVISTA"
+  />
+  <Marker
+    key="12"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.41938,
+        "lng": -99.09469,
+      }
+    }
+    title="Red Barn Stores 3851-AEROPUERTO"
+  />
+  <Marker
+    key="13"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.41799,
+        "lng": -99.10565,
+      }
+    }
+    title="Red Barn Stores 3872-BALBUENA"
+  />
+  <Marker
+    key="14"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.50548,
+        "lng": -99.15066,
+      }
+    }
+    title="Red Barn Stores 3877-TORRES  LINDAVISTA"
+  />
+  <Marker
+    key="15"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 4547-EDUARDO MOLINA"
+  />
+  <Marker
+    key="16"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.344095,
+        "lng": -99.178408,
+      }
+    }
+    title="Red Barn Stores 2430-COPILCO"
+  />
+  <Marker
+    key="17"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.38631,
+        "lng": -99.17346,
+      }
+    }
+    title="Red Barn Stores 2689-FELIX CUEVAS"
+  />
+  <Marker
+    key="18"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.36984,
+        "lng": -99.16516,
+      }
+    }
+    title="Red Barn Stores 3845-UNIVERSIDAD"
+  />
+  <Marker
+    key="19"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.34828,
+        "lng": -99.18477,
+      }
+    }
+    title="Red Barn Stores 3848-TAXQUEÑA"
+  />
+  <Marker
+    key="20"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3852-PLATEROS"
+  />
+  <Marker
+    key="21"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.30759,
+        "lng": -99.19368,
+      }
+    }
+    title="Red Barn Stores 3863-PERIFERICO SUR"
+  />
+  <Marker
+    key="22"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.36016,
+        "lng": -99.20757,
+      }
+    }
+    title="Red Barn Stores 3876-LAS AGUILAS"
+  />
+  <Marker
+    key="23"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1580-EL ROSARIO"
+  />
+  <Marker
+    key="24"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.38422,
+        "lng": -99.07574,
+      }
+    }
+    title="Red Barn Stores 2033-PLAZA ORIENTE"
+  />
+  <Marker
+    key="25"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.291905,
+        "lng": -99.110701,
+      }
+    }
+    title="Red Barn Stores 1460-CUEMANCO"
+  />
+  <Marker
+    key="26"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 2382-INTERLOMAS"
+  />
+  <Marker
+    key="27"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3504-AV. JESUS DEL MONTE"
+  />
+  <Marker
+    key="28"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.28327,
+        "lng": -99.64021,
+      }
+    }
+    title="Red Barn Stores 2343-TOLUCA"
+  />
+  <Marker
+    key="29"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3263-PILARES"
+  />
+  <Marker
+    key="30"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.26131,
+        "lng": -99.62237,
+      }
+    }
+    title="Red Barn Stores 3790-METEPEC"
+  />
+  <Marker
+    key="31"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.32126,
+        "lng": -99.61086,
+      }
+    }
+    title="Red Barn Stores 5702-SANTIN "
+  />
+  <Marker
+    key="32"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.5418,
+        "lng": -99.23292,
+      }
+    }
+    title="Red Barn Stores 5791-ZINACANTEPEC"
+  />
+  <Marker
+    key="33"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.29185,
+        "lng": -99.62784,
+      }
+    }
+    title="Red Barn Stores 5825-ALFREDO DEL MAZO"
+  />
+  <Marker
+    key="34"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.67025,
+        "lng": -99.20183,
+      }
+    }
+    title="Red Barn Stores 1044-SAN MARCOS IZCALLI"
+  />
+  <Marker
+    key="35"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1423-SANTA ELENA"
+  />
+  <Marker
+    key="36"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1834-PLAZA DEL LAGO"
+  />
+  <Marker
+    key="37"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1001-San Buenaventura"
+  />
+  <Marker
+    key="38"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 2643-NICOLAS ROMERO"
+  />
+  <Marker
+    key="39"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.63355,
+        "lng": -99.09562,
+      }
+    }
+    title="Red Barn Stores 3900-COACALCO"
+  />
+  <Marker
+    key="40"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 4018-SANTA MARÍA COACALCO"
+  />
+  <Marker
+    key="41"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.49696,
+        "lng": -99.25328,
+      }
+    }
+    title="La Tienda Especiál 1002-Teotihuacán"
+  />
+  <Marker
+    key="42"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.54396,
+        "lng": -99.1944,
+      }
+    }
+    title="Red Barn Stores 2041-TOLTECAS"
+  />
+  <Marker
+    key="43"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 32.965945,
+        "lng": -96.86535,
+      }
+    }
+    title="SuperStore 3849-ESMERALDA"
+  />
+  <Marker
+    key="44"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.51193,
+        "lng": -99.26485,
+      }
+    }
+    title="Red Barn Stores 1032-LOMAS VERDES"
+  />
+  <Marker
+    key="45"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1584-ESPACIO ESMERALDA"
+  />
+  <Marker
+    key="46"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.52169,
+        "lng": -99.23713,
+      }
+    }
+    title="Red Barn Stores 3847-SATELITE"
+  />
+  <Marker
+    key="47"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40531,
+        "lng": -98.93792,
+      }
+    }
+    title="Red Barn Stores 3850-ECHEGARAY"
+  />
+  <Marker
+    key="48"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.543,
+        "lng": -99.21271,
+      }
+    }
+    title="Red Barn Stores 3854-PIRULES"
+  />
+  <Marker
+    key="49"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1169-MULTIPLAZA ARBOLEDAS"
+  />
+  <Marker
+    key="50"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 5855-LAS ALAMEDAS"
+  />
+  <Marker
+    key="51"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 18.43148,
+        "lng": -67.118742,
+      }
+    }
+    title="Red Barn Stores 1683-VICENTE GUERRERO"
+  />
+  <Marker
+    key="52"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1202-HORIZONTE"
+  />
+  <Marker
+    key="53"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1489-HIPERPLAZA TEXCOCO"
+  />
+  <Marker
+    key="54"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.62411,
+        "lng": -99.01469,
+      }
+    }
+    title="La Tienda Especiál 1008-Héroes Tecamac"
+  />
+  <Marker
+    key="55"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 2079-CD. JARDIN"
+  />
+  <Marker
+    key="56"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3005-PLAZA ARAGON"
+  />
+  <Marker
+    key="57"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 4109-PUERTA TEXCOCO"
+  />
+  <Marker
+    key="58"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 4157-PERIFÉRICO CUAUTITLAN"
+  />
+  <Marker
+    key="59"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.417933,
+        "lng": -88.288332,
+      }
+    }
+    title="Red Barn Stores 1462-LERMA TOLUCA"
+  />
+  <Marker
+    key="60"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.68085,
+        "lng": -98.99573,
+      }
+    }
+    title="Red Barn Stores 1171-SAN JOSE TECAMC"
+  />
+  <Marker
+    key="61"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1203-SUPER PLAZA ECATEPEC"
+  />
+  <Marker
+    key="62"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1109-Ayotla"
+  />
+  <Marker
+    key="63"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.52355,
+        "lng": -99.22337,
+      }
+    }
+    title="SuperStore 3826-VIVEROS"
+  />
+  <Marker
+    key="64"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.50736,
+        "lng": -99.26002,
+      }
+    }
+    title="SuperStore 3838-LOMAS VERDES"
+  />
+  <Marker
+    key="65"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.42277,
+        "lng": -99.23712,
+      }
+    }
+    title="SuperStore 3815-TECAMACHALCO"
+  />
+  <Marker
+    key="66"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 32.9198,
+        "lng": -117.136314,
+      }
+    }
+    title="La Tienda Especiál 1110-Plaza Ecatepec"
+  />
+  <Marker
+    key="67"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="Red Barn Stores 5469-RÍO DE LOS REMEDIOS"
+  />
+  <Marker
+    key="68"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 98-Santa Fe"
+  />
+  <Marker
+    key="69"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 106-Toreo"
+  />
+  <Marker
+    key="70"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 117-UN-San Esteban"
+  />
+  <Marker
+    key="71"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 129-Un-Buen Tono"
+  />
+  <Marker
+    key="72"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.35356,
+        "lng": -99.29991,
+      }
+    }
+    title="KAYCHEE 147-Cuajimalpa"
+  />
+  <Marker
+    key="73"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 231-UN-Interlomas"
+  />
+  <Marker
+    key="74"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 232-UN-Polanco"
+  />
+  <Marker
+    key="75"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.36907,
+        "lng": -99.26085,
+      }
+    }
+    title="KAYCHEE 652-UN-Samara Santa Fe"
+  />
+  <Marker
+    key="76"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40456,
+        "lng": -99.25774,
+      }
+    }
+    title="KAYCHEE 655-Tecamachalco"
+  />
+  <Marker
+    key="77"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.56712,
+        "lng": -99.24766,
+      }
+    }
+    title="KAYCHEE 18-UN-Atizapan"
+  />
+  <Marker
+    key="78"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 111-UN-Nicolas Romero"
+  />
+  <Marker
+    key="79"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.61516,
+        "lng": -99.17365,
+      }
+    }
+    title="KAYCHEE 130-Cd. Labor"
+  />
+  <Marker
+    key="80"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.63774,
+        "lng": -99.06647,
+      }
+    }
+    title="KAYCHEE 146-Coacalco"
+  />
+  <Marker
+    key="81"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.52063,
+        "lng": -99.25052,
+      }
+    }
+    title="KAYCHEE 161-Bellavista"
+  />
+  <Marker
+    key="82"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 27.877364,
+        "lng": -81.837176,
+      }
+    }
+    title="KAYCHEE 167-Lago de Gpe"
+  />
+  <Marker
+    key="83"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 236-UN-Mundo E *Satelite"
+  />
+  <Marker
+    key="84"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 237-UN-Tenayuca"
+  />
+  <Marker
+    key="85"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.52382,
+        "lng": -99.21306,
+      }
+    }
+    title="KAYCHEE 667-Viveros"
+  />
+  <Marker
+    key="86"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.34974,
+        "lng": -99.03859,
+      }
+    }
+    title="KAYCHEE 100-UN-Iztapalapa"
+  />
+  <Marker
+    key="87"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.37953,
+        "lng": -99.103954,
+      }
+    }
+    title="KAYCHEE 121-Churubusco"
+  />
+  <Marker
+    key="88"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.25644,
+        "lng": -99.01552,
+      }
+    }
+    title="KAYCHEE 140-Tulyehualco"
+  />
+  <Marker
+    key="89"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.33371,
+        "lng": -99.15139,
+      }
+    }
+    title="KAYCHEE 141-Copilco"
+  />
+  <Marker
+    key="90"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.24988,
+        "lng": -99.11909,
+      }
+    }
+    title="KAYCHEE 154-Xochimilco"
+  />
+  <Marker
+    key="91"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.31482,
+        "lng": -99.13949,
+      }
+    }
+    title="KAYCHEE 158-Plaza América"
+  />
+  <Marker
+    key="92"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40981,
+        "lng": -99.063622,
+      }
+    }
+    title="KAYCHEE 165-Zaragoza"
+  />
+  <Marker
+    key="93"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 233-UN-Coapa"
+  />
+  <Marker
+    key="94"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 234-UN-Ajusco"
+  />
+  <Marker
+    key="95"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 235-UN-Universidad"
+  />
+  <Marker
+    key="96"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.44534,
+        "lng": -99.12794,
+      }
+    }
+    title="KAYCHEE 241-UN-Anfora"
+  />
+  <Marker
+    key="97"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.38676,
+        "lng": -99.07548,
+      }
+    }
+    title="KAYCHEE 670-Tezontle"
+  />
+  <Marker
+    key="98"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 39-UN-Ecatepec *Palomas"
+  />
+  <Marker
+    key="99"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 91-UN-Tecamac"
+  />
+  <Marker
+    key="100"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 107-UN-Ojo de Agua"
+  />
+  <Marker
+    key="101"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 116-UN-Tepozan"
+  />
+  <Marker
+    key="102"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 157-Tecamac II (Heroes)"
+  />
+  <Marker
+    key="103"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 239-UN-Eduardo Molina"
+  />
+  <Marker
+    key="104"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="KAYCHEE 240-UN-Neza 1 *Estadio"
+  />
+  <Marker
+    key="105"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.48354,
+        "lng": -99.03819,
+      }
+    }
+    title="KAYCHEE 260-UN-Neza 2 *Impulsora"
+  />
+  <Marker
+    key="106"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.30899,
+        "lng": -99.58681,
+      }
+    }
+    title="La Tienda Especiál 1142-Totoltepec"
+  />
+  <Marker
+    key="107"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 49.434921,
+        "lng": 5.914574,
+      }
+    }
+    title="La Tienda Especiál 1150-Huehuetoca"
+  />
+  <Marker
+    key="108"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 26.218311,
+        "lng": -98.34827,
+      }
+    }
+    title="La Tienda Especiál 1161-Valle De Chalco"
+  />
+  <Marker
+    key="109"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.17701,
+        "lng": -99.4636,
+      }
+    }
+    title="La Tienda Especiál 1177-Santiago Tianguistenco"
+  />
+  <Marker
+    key="110"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1199-Tepojaco"
+  />
+  <Marker
+    key="111"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.53452,
+        "lng": -99.04561,
+      }
+    }
+    title="La Tienda Especiál 1201-San Agustín Ecatepec"
+  />
+  <Marker
+    key="112"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.67386,
+        "lng": -98.95727,
+      }
+    }
+    title="La Tienda Especiál 1233-Tecalco"
+  />
+  <Marker
+    key="113"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1236-Atlacomulco"
+  />
+  <Marker
+    key="114"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.65931,
+        "lng": -99.08354,
+      }
+    }
+    title="La Tienda Especiál 1400-Joyas de Coacalco"
+  />
+  <Marker
+    key="115"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.27357,
+        "lng": -99.52924,
+      }
+    }
+    title="La Tienda Especiál 1428-San Mateo Atenco"
+  />
+  <Marker
+    key="116"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1496-El Molinito"
+  />
+  <Marker
+    key="117"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 20.11308,
+        "lng": -97.01491,
+      }
+    }
+    title="La Tienda Especiál 1558-La Palma"
+  />
+  <Marker
+    key="118"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1559-San Mateo Nopala"
+  />
+  <Marker
+    key="119"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 37.326983,
+        "lng": -120.49887,
+      }
+    }
+    title="La Tienda Especiál 1634-Cuautzingo"
+  />
+  <Marker
+    key="120"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.61072,
+        "lng": -98.94833,
+      }
+    }
+    title="La Tienda Especiál 1828-Acolman"
+  />
+  <Marker
+    key="121"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 33.210064,
+        "lng": -117.248199,
+      }
+    }
+    title="La Tienda Especiál 1829-Almoloya"
+  />
+  <Marker
+    key="122"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1830-Arbolada los Sauces"
+  />
+  <Marker
+    key="123"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 1870-Tepotzotlan"
+  />
+  <Marker
+    key="124"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1899-San Juan de la Labor"
+  />
+  <Marker
+    key="125"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 1930-El Oro"
+  />
+  <Marker
+    key="126"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 2054-Terranova"
+  />
+  <Marker
+    key="127"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 2072-Portal Chalco"
+  />
+  <Marker
+    key="128"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 44.560235,
+        "lng": -70.544894,
+      }
+    }
+    title="La Tienda Especiál 2141-Xonacatlán"
+  />
+  <Marker
+    key="129"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.28039,
+        "lng": -99.67466,
+      }
+    }
+    title="La Tienda Especiál 2221-Alpinismo"
+  />
+  <Marker
+    key="130"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 2240-Santa Cruz"
+  />
+  <Marker
+    key="131"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.43716,
+        "lng": -99.25059,
+      }
+    }
+    title="La Tienda Especiál 2525-Río Hondo"
+  />
+  <Marker
+    key="132"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 2736-Chimalhuacan Peñon"
+  />
+  <Marker
+    key="133"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 2737- Etzatlan"
+  />
+  <Marker
+    key="134"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 2767-Doctores"
+  />
+  <Marker
+    key="135"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 42.492177,
+        "lng": -90.642805,
+      }
+    }
+    title="La Tienda Especiál 2871-Viento Nuevo"
+  />
+  <Marker
+    key="136"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 2873-Dimas"
+  />
+  <Marker
+    key="137"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.55051,
+        "lng": -99.07539,
+      }
+    }
+    title="La Tienda Especiál 3020-Xalostoc"
+  />
+  <Marker
+    key="138"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.170285,
+        "lng": -91.87336,
+      }
+    }
+    title="La Tienda Especiál 3026-Gobernadora"
+  />
+  <Marker
+    key="139"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3043-Zinacantepec"
+  />
+  <Marker
+    key="140"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.64255,
+        "lng": -99.12103,
+      }
+    }
+    title="La Tienda Especiál 3065-Bosques del Valle"
+  />
+  <Marker
+    key="141"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3074-Villas De La Hacienda"
+  />
+  <Marker
+    key="142"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.62133,
+        "lng": -99.02169,
+      }
+    }
+    title="La Tienda Especiál 3098-Guadalupana"
+  />
+  <Marker
+    key="143"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.66552,
+        "lng": -99.08241,
+      }
+    }
+    title="La Tienda Especiál 3141-San Pablo Tultitlán"
+  />
+  <Marker
+    key="144"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3167-Santa Inés"
+  />
+  <Marker
+    key="145"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3213-La Presa"
+  />
+  <Marker
+    key="146"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 3214-Chinampa"
+  />
+  <Marker
+    key="147"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3296-Villas de Ayotla"
+  />
+  <Marker
+    key="148"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 2219-JOROBAS"
+  />
+  <Marker
+    key="149"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3668-Real De Costitlan"
+  />
+  <Marker
+    key="150"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1107-IXTAPALUCA "
+  />
+  <Marker
+    key="151"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.26773,
+        "lng": -99.59806,
+      }
+    }
+    title="La Tienda Especiál 3725-Toluca Pilares"
+  />
+  <Marker
+    key="152"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.69572,
+        "lng": -99.20425,
+      }
+    }
+    title="La Tienda Especiál 3750-Autopista Querétaro"
+  />
+  <Marker
+    key="153"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.282785,
+        "lng": -99.190402,
+      }
+    }
+    title="La Tienda Especiál 3751-Insurgentes Sur"
+  />
+  <Marker
+    key="154"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.51874,
+        "lng": -99.16443,
+      }
+    }
+    title="La Tienda Especiál 3752-Vallejo"
+  />
+  <Marker
+    key="155"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 25.92159,
+        "lng": -97.434356,
+      }
+    }
+    title="La Tienda Especiál 3753-Plaza Aragón"
+  />
+  <Marker
+    key="156"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.48969,
+        "lng": -99.24804,
+      }
+    }
+    title="SuperStore 3825-SAN  MATEO"
+  />
+  <Marker
+    key="157"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40399,
+        "lng": -99.18765,
+      }
+    }
+    title="La Tienda Especiál 3755-Tacubaya"
+  />
+  <Marker
+    key="158"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.54739,
+        "lng": -99.20255,
+      }
+    }
+    title="La Tienda Especiál 3756-Tlalnepantla"
+  />
+  <Marker
+    key="159"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 3757-San Juan de Aragón "
+  />
+  <Marker
+    key="160"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.43375,
+        "lng": -99.16079,
+      }
+    }
+    title="La Tienda Especiál 3759-San Rafael"
+  />
+  <Marker
+    key="161"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.32093,
+        "lng": -99.09061,
+      }
+    }
+    title="La Tienda Especiál 3760-Lomas Estrella"
+  />
+  <Marker
+    key="162"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.32284,
+        "lng": -99.0982,
+      }
+    }
+    title="La Tienda Especiál 3761-Tulyehualco"
+  />
+  <Marker
+    key="163"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40267,
+        "lng": -99.00781,
+      }
+    }
+    title="La Tienda Especiál 3762-Chimalhuacán"
+  />
+  <Marker
+    key="164"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.443705,
+        "lng": -99.173946,
+      }
+    }
+    title="La Tienda Especiál 3763-Mariano Escobedo"
+  />
+  <Marker
+    key="165"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.35584,
+        "lng": -99.10174,
+      }
+    }
+    title="La Tienda Especiál 3764-Iztapalapa"
+  />
+  <Marker
+    key="166"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.61604,
+        "lng": -99.06336,
+      }
+    }
+    title="La Tienda Especiál 3765-Ecatepec"
+  />
+  <Marker
+    key="167"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.41425,
+        "lng": -99.12797,
+      }
+    }
+    title="La Tienda Especiál 3766-La Viga "
+  />
+  <Marker
+    key="168"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.28993,
+        "lng": -99.12587,
+      }
+    }
+    title="La Tienda Especiál 3768-Villa Coapa"
+  />
+  <Marker
+    key="169"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40835,
+        "lng": -99.07605,
+      }
+    }
+    title="La Tienda Especiál 3770-Pantitlán"
+  />
+  <Marker
+    key="170"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.38025,
+        "lng": -99.10158,
+      }
+    }
+    title="La Tienda Especiál 3771-Plaza Churubusco"
+  />
+  <Marker
+    key="171"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 3772-Plaza Atizapan"
+  />
+  <Marker
+    key="172"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.47214,
+        "lng": -99.11516,
+      }
+    }
+    title="La Tienda Especiál 3774-Ferrocarril Hidalgo"
+  />
+  <Marker
+    key="173"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40679,
+        "lng": -98.99355,
+      }
+    }
+    title="La Tienda Especiál 3775-La Aurora"
+  />
+  <Marker
+    key="174"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.38623,
+        "lng": -99.02007,
+      }
+    }
+    title="La Tienda Especiál 3776-Sor Juana"
+  />
+  <Marker
+    key="175"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.48876,
+        "lng": -99.05071,
+      }
+    }
+    title="La Tienda Especiál 3777-Valle de Aragón "
+  />
+  <Marker
+    key="176"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 35.382493,
+        "lng": -106.475935,
+      }
+    }
+    title="Red Barn Stores 5765-LAS AMERICAS "
+  />
+  <Marker
+    key="177"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3778-Xochimilco"
+  />
+  <Marker
+    key="178"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.3664,
+        "lng": -99.20936,
+      }
+    }
+    title="La Tienda Especiál 3782-Centenario"
+  />
+  <Marker
+    key="179"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.55633,
+        "lng": -99.02116,
+      }
+    }
+    title="La Tienda Especiál 3783-Santa Clara "
+  />
+  <Marker
+    key="180"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.46523,
+        "lng": -99.22864,
+      }
+    }
+    title="La Tienda Especiál 3784-1° de Mayo"
+  />
+  <Marker
+    key="181"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.35712,
+        "lng": -99.23983,
+      }
+    }
+    title="La Tienda Especiál 3786-Santa Fe"
+  />
+  <Marker
+    key="182"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3503-ECATEPEC CENTRO"
+  />
+  <Marker
+    key="183"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.14205,
+        "lng": -96.96833,
+      }
+    }
+    title="La Tienda Especiál 3787-Cuautitlán"
+  />
+  <Marker
+    key="184"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.62843,
+        "lng": -99.13862,
+      }
+    }
+    title="La Tienda Especiál 3791-Fuentes del Valle"
+  />
+  <Marker
+    key="185"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.51337,
+        "lng": -99.101943,
+      }
+    }
+    title="La Tienda Especiál 3792-San Juanico"
+  />
+  <Marker
+    key="186"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 3795-Texcoco"
+  />
+  <Marker
+    key="187"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.34553,
+        "lng": -99.06229,
+      }
+    }
+    title="La Tienda Especiál 3797-Cabeza de Juárez"
+  />
+  <Marker
+    key="188"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.55578,
+        "lng": -99.17741,
+      }
+    }
+    title="La Tienda Especiál 3798-Santa Cecilia"
+  />
+  <Marker
+    key="189"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.34838,
+        "lng": -99.06954,
+      }
+    }
+    title="La Tienda Especiál 3799-Ángeles Iztapalapa"
+  />
+  <Marker
+    key="190"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40137,
+        "lng": -99.20377,
+      }
+    }
+    title="La Tienda Especiál 3803-Observatorio"
+  />
+  <Marker
+    key="191"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.37856,
+        "lng": -99.19746,
+      }
+    }
+    title="La Tienda Especiál 3805-Santa Lucía"
+  />
+  <Marker
+    key="192"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.41721,
+        "lng": -99.14234,
+      }
+    }
+    title="La Tienda Especiál 3808-Bolivar"
+  />
+  <Marker
+    key="193"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.39522,
+        "lng": -99.0534,
+      }
+    }
+    title="La Tienda Especiál 3860-Zaragoza"
+  />
+  <Marker
+    key="194"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 3871-Plaza Cuautitlán"
+  />
+  <Marker
+    key="195"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 44.355538,
+        "lng": -69.749067,
+      }
+    }
+    title="La Tienda Especiál 3874-Cantil"
+  />
+  <Marker
+    key="196"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.673625,
+        "lng": -99.181558,
+      }
+    }
+    title="La Tienda Especiál 3883-Melchor Ocampo"
+  />
+  <Marker
+    key="197"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.26459,
+        "lng": -98.90173,
+      }
+    }
+    title="La Tienda Especiál 3884-Chalco 2000"
+  />
+  <Marker
+    key="198"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 18.378818,
+        "lng": -65.954174,
+      }
+    }
+    title="La Tienda Especiál 3888-Vía Morelos"
+  />
+  <Marker
+    key="199"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 3891-Los Reyes"
+  />
+  <Marker
+    key="200"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 3892-Av Central"
+  />
+  <Marker
+    key="201"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.32063,
+        "lng": -99.11459,
+      }
+    }
+    title="La Tienda Especiál 3897-La Virgen"
+  />
+  <Marker
+    key="202"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 1724-LOS REYES ZUMPANGO"
+  />
+  <Marker
+    key="203"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.56792,
+        "lng": -99.06371,
+      }
+    }
+    title="La Tienda Especiál 3910-Palomas"
+  />
+  <Marker
+    key="204"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 27.520641,
+        "lng": -99.497786,
+      }
+    }
+    title="Red Barn Stores 3176-OJO DE AGUA TECAMAC"
+  />
+  <Marker
+    key="205"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.351225,
+        "lng": -99.025238,
+      }
+    }
+    title="La Tienda Especiál 3916-Iztapalapa Norte"
+  />
+  <Marker
+    key="206"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 3924-Cofradías"
+  />
+  <Marker
+    key="207"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 4017-Toluca Aztecas"
+  />
+  <Marker
+    key="208"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 4029-Av. Nacional"
+  />
+  <Marker
+    key="209"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.42039,
+        "lng": -98.93079,
+      }
+    }
+    title="La Tienda Especiál 4128-Arca De Noé"
+  />
+  <Marker
+    key="210"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="La Tienda Especiál 4198-El Tenayo"
+  />
+  <Marker
+    key="211"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 4541-Ixtapaluca"
+  />
+  <Marker
+    key="212"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.65945,
+        "lng": -99.00772,
+      }
+    }
+    title="La Tienda Especiál 4558-Tecamac"
+  />
+  <Marker
+    key="213"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.78373,
+        "lng": -100.445882,
+      }
+    }
+    title="La Tienda Especiál 5730-Chicoloapan"
+  />
+  <Marker
+    key="214"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.41588,
+        "lng": -98.94409,
+      }
+    }
+    title="La Tienda Especiál 5733-Plaza Chimalhuacán"
+  />
+  <Marker
+    key="215"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.61902,
+        "lng": -99.17541,
+      }
+    }
+    title="La Tienda Especiál 5768-Cd Labor"
+  />
+  <Marker
+    key="216"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 1053-ACOXPA"
+  />
+  <Marker
+    key="217"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.34522,
+        "lng": -99.13519,
+      }
+    }
+    title="SuperStore 3813-CHURUBUSCO"
+  />
+  <Marker
+    key="218"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.3378,
+        "lng": -99.18585,
+      }
+    }
+    title="SuperStore 3836-COPILCO"
+  />
+  <Marker
+    key="219"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.34438,
+        "lng": -99.16153,
+      }
+    }
+    title="SuperStore 3831-COYOACAN"
+  />
+  <Marker
+    key="220"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.32132,
+        "lng": -99.13901,
+      }
+    }
+    title="SuperStore 3843-DIVISIÓN DEL NORTE"
+  />
+  <Marker
+    key="221"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.3728,
+        "lng": -99.17285,
+      }
+    }
+    title="SuperStore 2766-FELIX CUEVAS"
+  />
+  <Marker
+    key="222"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.30643,
+        "lng": -99.12261,
+      }
+    }
+    title="SuperStore 3839-GIRASOLES"
+  />
+  <Marker
+    key="223"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 28.704321,
+        "lng": -81.568948,
+      }
+    }
+    title="SuperStore 3397-MAYORAZGO"
+  />
+  <Marker
+    key="224"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.38173,
+        "lng": -99.16248,
+      }
+    }
+    title="SuperStore 3819-DEL VALLE"
+  />
+  <Marker
+    key="225"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.39772,
+        "lng": -99.16801,
+      }
+    }
+    title="SuperStore 3223-DEL VALLE NORTE"
+  />
+  <Marker
+    key="226"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 1492-OLIPLAZA"
+  />
+  <Marker
+    key="227"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.33824,
+        "lng": -99.1255,
+      }
+    }
+    title="SuperStore 3199-PASEOS DE TAXQUEÑA"
+  />
+  <Marker
+    key="228"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.36593,
+        "lng": -99.16669,
+      }
+    }
+    title="SuperStore 3479-POPOCATEPETL"
+  />
+  <Marker
+    key="229"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.35817,
+        "lng": -99.15264,
+      }
+    }
+    title="SuperStore 3842-RIO CHURUBUSCO"
+  />
+  <Marker
+    key="230"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.35987,
+        "lng": -99.19758,
+      }
+    }
+    title="SuperStore 2829-CALZADA DE LOS LEONES"
+  />
+  <Marker
+    key="231"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 2830-J.DE LA MONTAÑA"
+  />
+  <Marker
+    key="232"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 3177-INS. LA JOYA"
+  />
+  <Marker
+    key="233"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.33461,
+        "lng": -99.19903,
+      }
+    }
+    title="SuperStore 3816-PEDREGAL"
+  />
+  <Marker
+    key="234"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.37458,
+        "lng": -99.18789,
+      }
+    }
+    title="SuperStore 3818-REVOLUCIÓN"
+  />
+  <Marker
+    key="235"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.29569,
+        "lng": -99.1549,
+      }
+    }
+    title="SuperStore 3827-PERIFERICO"
+  />
+  <Marker
+    key="236"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.31474,
+        "lng": -99.21255,
+      }
+    }
+    title="SuperStore 3833-JARDINES"
+  />
+  <Marker
+    key="237"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.32635,
+        "lng": -99.2164,
+      }
+    }
+    title="SuperStore 3837-LUIS CABRERA"
+  />
+  <Marker
+    key="238"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.30235,
+        "lng": -99.14271,
+      }
+    }
+    title="SuperStore 3840-PATIO PEDREGAL"
+  />
+  <Marker
+    key="239"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.3091,
+        "lng": -99.21786,
+      }
+    }
+    title="SuperStore 3896-FTES. PEDREGAL"
+  />
+  <Marker
+    key="240"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.33897,
+        "lng": -99.2187,
+      }
+    }
+    title="SuperStore 3915-AV. TOLUCA"
+  />
+  <Marker
+    key="241"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.38981,
+        "lng": -99.17507,
+      }
+    }
+    title="SuperStore 3817-GEORGIA"
+  />
+  <Marker
+    key="242"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 3481-GRAND POLANCO"
+  />
+  <Marker
+    key="243"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.43597,
+        "lng": -99.19813,
+      }
+    }
+    title="SuperStore 3832-HOMERO"
+  />
+  <Marker
+    key="244"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.42458,
+        "lng": -99.17869,
+      }
+    }
+    title="SuperStore 3811-HORACIO"
+  />
+  <Marker
+    key="245"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 3834-INDIANA"
+  />
+  <Marker
+    key="246"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.42458,
+        "lng": -99.17869,
+      }
+    }
+    title="SuperStore 3828-LOS MORALES"
+  />
+  <Marker
+    key="247"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.40948,
+        "lng": -99.17733,
+      }
+    }
+    title="SuperStore 3820-MICHOACÁN"
+  />
+  <Marker
+    key="248"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.41525,
+        "lng": -99.17773,
+      }
+    }
+    title="SuperStore 3809-PACHUCA"
+  />
+  <Marker
+    key="249"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 41.687312,
+        "lng": -93.96118,
+      }
+    }
+    title="SuperStore 3025-PARQUES POLANCO"
+  />
+  <Marker
+    key="250"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.39373,
+        "lng": -99.15409,
+      }
+    }
+    title="SuperStore 3812-NARVARTE"
+  />
+  <Marker
+    key="251"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.43363,
+        "lng": -99.16771,
+      }
+    }
+    title="SuperStore 3810-SENA"
+  />
+  <Marker
+    key="252"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 3480-WTC DAKOTA"
+  />
+  <Marker
+    key="253"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 4191-LAGO DE GUADALUPE "
+  />
+  <Marker
+    key="254"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.41273,
+        "lng": -99.24837,
+      }
+    }
+    title="SuperStore 3835-LOMAS ANAHUAC"
+  />
+  <Marker
+    key="255"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.47346,
+        "lng": -99.23385,
+      }
+    }
+    title="SuperStore 3629-ECHEGARAY"
+  />
+  <Marker
+    key="256"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="Red Barn Stores 3016-MACRO PLAZA HEROES TEC."
+  />
+  <Marker
+    key="257"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 3824-ORADORES"
+  />
+  <Marker
+    key="258"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 49.566596,
+        "lng": 5.391386,
+      }
+    }
+    title="La Tienda Especiál 5770-Zumpango"
+  />
+  <Marker
+    key="259"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.5662,
+        "lng": -99.2083,
+      }
+    }
+    title="SuperStore 1408-VALLE DORADO"
+  />
+  <Marker
+    key="260"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.37009,
+        "lng": -98.96128,
+      }
+    }
+    title="La Tienda Especiál 5813-La Paz"
+  />
+  <Marker
+    key="261"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.49068,
+        "lng": -99.13391,
+      }
+    }
+    title="SuperStore 3821-LINDAVISTA"
+  />
+  <Marker
+    key="262"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 34.570817,
+        "lng": -105.993007,
+      }
+    }
+    title="Red Barn Stores 4154-PERINORTE"
+  />
+  <Marker
+    key="263"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.42605,
+        "lng": -99.22107,
+      }
+    }
+    title="SuperStore 3814-BARRILACO"
+  />
+  <Marker
+    key="264"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 3829-BOSQUES DE LAS LOMAS"
+  />
+  <Marker
+    key="265"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.3922,
+        "lng": -99.2474,
+      }
+    }
+    title="SuperStore 3841-LILAS"
+  />
+  <Marker
+    key="266"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.35625,
+        "lng": -99.27609,
+      }
+    }
+    title="SuperStore 3881-SANTA FE"
+  />
+  <Marker
+    key="267"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 18.09187,
+        "lng": -93.34861,
+      }
+    }
+    title="SuperStore 3830-VIRREYES"
+  />
+  <Marker
+    key="268"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.37323,
+        "lng": -99.2788,
+      }
+    }
+    title="SuperStore 3921-VISTA HERMOSA"
+  />
+  <Marker
+    key="269"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.34859,
+        "lng": -99.22953,
+      }
+    }
+    title="SuperStore 5817-AXOMIATLA"
+  />
+  <Marker
+    key="270"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.42022,
+        "lng": -99.2655,
+      }
+    }
+    title="SuperStore 3844-BOSQUES DE MINAS"
+  />
+  <Marker
+    key="271"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 39.390897,
+        "lng": -99.066067,
+      }
+    }
+    title="SuperStore 3034-FUENTES DE LAS LOMAS"
+  />
+  <Marker
+    key="272"
+    onClick={[Function]}
+    position={
+      Object {
+        "lat": 19.32192,
+        "lng": -99.09512,
+      }
+    }
+    title="KAYCHEE  175-Lomas Estrella"
+  />
+  <Modal
+    handleClose={[Function]}
+    show={false}
+  >
+    <p />
+    <p />
+    <button
+      className="btn btn-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      <img
+        alt="staricon"
+        src="star.png"
+      />
+      Agregar a Favoritos
+    </button>
+  </Modal>
+</main>
+`;
+
+exports[`MyComponent should render correctly in "debug" mode 1`] = `
+<div>
+  <nav
+    Style="background-color: #FFFFF;"
+    className="navbar navbar-light mr-auto"
+  >
+     
+    <img
+      alt="storeicon"
+      src="cdmxstore.png"
+      width="250px"
+    />
+  </nav>
+  <div
+    className="row favoriteContainer"
+  >
+    <div
+      className="col-8"
+    >
+      <withProps(withScriptjs(withGoogleMap(Component)))
+        isMarkerShown={true}
+      />
+    </div>
+    <div
+      className="col-4 "
+    >
+      <Connect(FavoriteContainer) />
+    </div>
+  </div>
+</div>
+`;

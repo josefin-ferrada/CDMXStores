@@ -5,7 +5,7 @@ import './FavoriteContainer.css'
 
 
 
-class FavoriteContainer extends Component {
+export class FavoriteContainer extends Component {
   render() {
     return (
       <div className="">

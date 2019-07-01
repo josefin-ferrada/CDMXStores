@@ -4,7 +4,7 @@ import MyMapComponent from "./Componentes/Map"
 import FavoriteContainer from "./Componentes/FavoriteContainer";
 import cdmxstore from './images/cdmxstore.png'
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       

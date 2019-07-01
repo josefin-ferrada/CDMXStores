@@ -6,7 +6,7 @@ import { deleteFav, setFav } from './../actions/modal';
 import {connect} from 'react-redux';
 import star from './../images/star.png'
 
-class InMap extends Component {
+export class InMap extends Component {
   state = { show: false }
 
   showModal = (name,address) => {
