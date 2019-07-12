@@ -1,1 +1,1 @@
-![Desktop](images/cdmxgithub.png)
+![Desktop](./../../src/images/cdmxgithub.png)
