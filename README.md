@@ -8,5 +8,7 @@ de favoritos y eliminarlas. Realicé tanto la planificación, desarrollo y prueb
 proyecto.
 Herramientas: ReactJs, GoogleMaps API, React-Redux, Bootstrap
 
+<https://cdmxstores.netlify.com>
+
 
 ![Desktop](https://github.com/josefin-ferrada/CDMXStores/blob/master/src/images/cdmxgithub.png)
