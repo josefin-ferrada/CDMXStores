@@ -1,6 +1,6 @@
 ## Resumen del proyecto
 
-###CDMX Store
+#CDMX Store
 
 Descripción: Desarrollé esta aplicación utilizando ReactJs, además integré API de
 GoogleMaps que muestra las tiendas de ciudad de México y permite agregarlas a una lista
